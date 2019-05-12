@@ -20,7 +20,7 @@ A.打开windows服务，停止redis,打开cmd,在命令执行
 
 如下
 
-![输入图片说明](https://images.gitee.com/uploads/images/2018/1009/093537_a0f91776_626204.png "屏幕截图.png")
+![输入图片说明](http://pypbb.oss-cn-beijing.aliyuncs.com/093537_a0f91776_626204.png "屏幕截图.png")
 
 sc delete redis
 
@@ -44,6 +44,6 @@ redis-server.exe --service-install redis.windows.conf
 
 会发现有如下
 
-![输入图片说明](https://images.gitee.com/uploads/images/2018/0921/102856_312e1326_626204.png "屏幕截图.png")
+![输入图片说明](http://pypbb.oss-cn-beijing.aliyuncs.com/102856_312e1326_626204.png "屏幕截图.png")
 
 说明重新注册成功了，在windows服务中可以找到新注册的redis，并且启动就可以使用了
