@@ -1,68 +1,60 @@
-# Welcome to Epoch!
+# Welcome to Jekyll!
 #
-# 基本信息
-title: Epoch的博客
-email: zhangqinglei@epoch.club
-description: 喜欢编码
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: HyG
+brief-intro: Front-end Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://epochblog.top/" # the base hostname & protocol for your site, e.g. http://example.com
-weibo_username: liygheart
-github_username:  fhi329871203
+url: "https://gaohaoyang.github.io" # the base hostname & protocol for your site
 
-# 文章目录格式化
 permalink: /:year/:month/:day/:title/
-# 文章摘要分隔符
-excerpt_separator: "\n\n\n\n"
 
-# 评论组件
-disqus_shortname: tomoya
+# other links
+twitter_username: gaohaoyang126
+facebook_username: gaohaoyang.water
+github_username:  Gaohaoyang
+email: gaohaoyang126@126.com
+weibo_username: 3115521wh
+zhihu_username: gaohaoyang
+linkedIn_username: gaohaoyang
+dribbble_username:
+
+description_footer: 本站记录我前端之旅的沿途风景！
+
+# comments
+# two ways to comment, only choose one, and use your own short name
+# 两种评论插件，选一个就好了，使用自己的 short_name
+duoshuo_shortname: #hygblog
+disqus_shortname: gaohaoyang
 
 # statistic analysis 统计代码
-baidu_tongji_id: ebcdac2d132aa663e3ee4c53656bad25
-google_analytics_id: UA-98133026-1
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
+google_analytics_id: UA-72449510-4 # google 分析追踪id
 
-# webmaster meta
-bing_meta: 8D00F36D8929A335207FBCE7F13C50B3
-
-# 格式化文档
+# Build settings
 markdown: kramdown
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# 开启相关文章功能，可惜github pages不支持
-# lsi: true
+# port
+# port: 1234
 
-# 插件
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-paginate
+# url
+category_dir: category/
+tag_dir: tag/
 
-# 分页
-paginate: 7
+# excerpt
+excerpt_separator: "\n\n\n\n"
 
-# 搜索服务
-algolia:
-  application_id: '36883FPR2D'
-  index_name:     '36883FPR2D'
-  search_only_api_key: '2d40767987f704b3b04b9efce7ff49c8'
-
-# 友情链接
-links:
-  -
-    name: 朋也
-    url: https://yiiu.co/
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# paginate
+gems: [jekyll-paginate]
+paginate: 6
