@@ -34,8 +34,6 @@ port 6381  改造为自己下要的端口号，默认6379
 
 requirepass 123456 设置密码，必须设置
 
-# maxmemory <bytes>
-
 maxmemory 1024000000  设置缓存
 
 以上基本上满足需求了，接下来注册服务，找到redis目录，打开cmd，执行如下
