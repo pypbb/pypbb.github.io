@@ -12,11 +12,11 @@ author: Epoch
 
 springboot整合教程(1)
 
-下载Redis-x64-3.2.100.msi安装，下一步，直到成功完成。
+关于springboot项目生成地址：
 
-下载地址：https://github.com/MicrosoftArchive/redis/releases
+https://start.spring.io/#
 
-A.打开windows服务，停止redis,打开cmd,在命令执行
+借助该地址可以快速生成一个springboot的简单项目。
 
 如下
 
